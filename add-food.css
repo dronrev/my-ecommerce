@@ -1,0 +1,89 @@
+.container{
+    padding-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+.add-form form{
+    border: 1px solid;
+}
+.add-form form .form-title{
+    background-color: pink;
+    border-bottom: 1px solid;
+}
+
+.form-title{
+    font-weight: bolder;
+    font-size: 2em;
+}
+.food-add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    padding: 6px;
+    border-radius: 5px 5px;
+    width: 500px;
+}
+select{
+    padding: 6px;
+    border-radius: 5px 5px;
+    width: 500px;
+}
+.food-name,.food-desc,.food-cat,.food-price{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.add-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.add-button button{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(pink,red);
+}
+.image-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-image{
+    border: 1px dotted;
+    width: 600px;
+    height: 40vh;
+}
+.button-add-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40vh;
+}
+.button-add-image button{
+    cursor: pointer;
+    font-size: 10em;
+    border: none;
+    background-color: white;  
+    width: 100%;
+    height: 38vh;
+}
