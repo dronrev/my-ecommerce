@@ -1,0 +1,37 @@
+main h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.what-we-do{
+    margin-top: 20px;
+    background-color: grey;
+}
+.what-we-do p{
+    color: white;
+}
+
+.team-members{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.team-members img{
+    border-radius: 50%;
+}
+
+.team-members div{
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+.description{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: rgb(164, 164, 164);
+}

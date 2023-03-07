@@ -8,25 +8,17 @@
     <link rel="stylesheet" href="index-responsive.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="./css/modal.box.css">
     <script src="add-to-cart.js" defer></script>
     <script src="get-food.js" defer></script>
+    <script src="./js/modal.box.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <label for="" class="brand">NegusZ</label>
-            <ul>
-             <li><a href="menu.php" class="nav-bar">Menu</a></li>
-             <li><a href="" class="nav-bar">Location</a></li>
-             <li><a href="" class="nav-bar">Our Story</a></li>
-             <li><a href="" class="nav-bar">Shop</a></li>
-             <li><a href="" class="nav-bar">Contact Us</a></li>
-             <li><button class="nav-bar sign-in"><a href="" >Login</a></button></li>
-            </ul>
-            
-         </nav>
-    </header>
+    <?php
+    include_once 'nav-bar.php';
+    include_once 'box.modal.php';
+    ?>
     <main class="main-page-menu">
         <ul class="food-menu">
             <li><a href="">Main Courses</a></li>
@@ -93,5 +85,6 @@
     <div-- class="copyright">
         <p>&copy;Vernord Musran 2022-2023</p>
     </div-->
+</div>
 </body>
 </html>

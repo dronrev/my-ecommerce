@@ -10,20 +10,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <label for="" class="brand">NegusZ</label>
-            <ul>
-             <li><a href="menu.php" class="nav-bar">Menu</a></li>
-             <li><a href="" class="nav-bar">Location</a></li>
-             <li><a href="" class="nav-bar">Our Story</a></li>
-             <li><a href="" class="nav-bar">Shop</a></li>
-             <li><a href="" class="nav-bar">Contact Us</a></li>
-             <li><button class="nav-bar sign-in"><a href="" >Login</a></button></li>
-            </ul>
-            
-         </nav>
-    </header>
+    <?php
+    include_once 'nav-bar.php';
+    include_once 'box.modal.php';
+    ?>
     <main>
         <section class="sec-1">
             <div class="container">

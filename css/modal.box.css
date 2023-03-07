@@ -1,0 +1,54 @@
+.log-container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 10px;
+}
+
+.login{
+  position: fixed;
+  bottom: 0;
+}
+
+.log-container form input{
+  width: 60%;
+  border: none;
+  border: 1px solid rgb(88, 88, 212);
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.log-container form button{
+  border-radius: 25px;
+  padding: 10px;
+  width: 60%;
+
+}
+
+.google-login{
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: white;
+  width: 60%;
+  text-align: center;
+}
+
+.google-login>.google-buttonlog{
+  border: none;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-button{
+  background: linear-gradient(grey,black);
+  color: white;
+  font-size: 1.125rem;
+}
+
+.forgot-pass{
+  background-color: white;
+  color: black;
+  font-size: 1.125rem;
+}

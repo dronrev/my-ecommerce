@@ -127,6 +127,7 @@ function sortByCat(){
 
 }
 
-function selectItem(item){
-    console.log(item)
+function selectItem(){
+    this.theOrder.pop();
+    console.log(this.theOrder);
 }
