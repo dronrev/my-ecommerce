@@ -10,30 +10,30 @@ body{
 }
 nav{
     background: rgb(141, 141, 234);
-    height: 80px;
-    width: 100%;
+    padding: 1.25rem;
+    position: relative;
 }
 
 label.brand{
+    position: absolute;
     color: white;
     font-size: 1.75rem;
-    line-height: 80px;
     padding: 0 100px;
+    bottom: 2rem;
     font-weight: bold;
 }
 
 nav ul{
-    float: right;
-    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+    padding: 1.125rem;
 }
 nav ul li a{
     color: white;
 }
-.nav-bar:hover{
-    color: grey;
+nav ul li a:hover{
+    color: rgb(175, 171, 171);
 }

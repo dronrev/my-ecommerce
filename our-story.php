@@ -33,12 +33,12 @@
                     <div>
                         <img src="./assets/images/cont-first.jpg" alt="" width="120" height="120">
                         <p>Vernord Musran</p>
-                        <p class="description">Description</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sequi iure cupiditate aliquam dolor magni corrupti reiciendis quibusdam, debitis ipsa aliquid tenetur cum in commodi expedita officiis animi a optio.</p>
                     </div>
                     <div>
                         <img src="./assets/images/cont-first.jpg" alt="" width="120" height="120">
                         <p>Vernord Musran</p>
-                        <p class="description">Description</p>
+                        <p class="description">Description lore</p>
                     </div>
                     <div>
                         <img src="./assets/images/cont-first.jpg" alt="" width="120" height="120">

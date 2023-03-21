@@ -48,11 +48,11 @@
                         <div class="food-cat">
                             <label for="">Category</label>
                             <select name="" id="prod-cat">
-                                <option value="main_courses">Main Courses</option>
-                                <option value="starters">Starters</option>
-                                <option value="salads">Salads</option>
-                                <option value="desserts">Desserts</option>
-                                <option value="drinks">Drinks</option>
+                                <option value="Main Courses">Main Courses</option>
+                                <option value="Starters">Starters</option>
+                                <option value="Salads">Salads</option>
+                                <option value="Desserts">Desserts</option>
+                                <option value="Drinks">Drinks</option>
                             </select>
                         </div>
     
